@@ -1,0 +1,388 @@
+<HTML>
+
+<style type="text/css">
+
+body{
+	font-family: arial,helvetica,sans-serif;
+	background-color: #C0C0C0;
+	color: #000000;
+ 
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: small;
+}
+
+div.Barra{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 90%;
+	font-size: 150%;
+	alink: #000000;
+}
+div.Titles{
+	padding: 0.5em;;
+	text-align: center;
+	color: #000000;
+}
+
+.ExerciseTitle{
+	font-size: 140%;
+	color: #000000;
+}
+
+.ExerciseSubtitle{
+	font-size: 120%;
+	color: #000000;
+}
+
+div.IndexDiv{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	width: 40%;
+	background-color: #cacaff;
+	color: #000000;
+	font-size: 100%;
+}
+
+.Index{
+	text-align: left;
+	font-size: 100%;
+}
+
+a{
+	color: #0000ff;
+}
+
+a:visited{
+	color: #800000;
+}
+
+a:hover{
+	color: #0000ff;
+}
+
+</style>
+<!-- BeginNavBarHeaderCodeInsertedByMasher -->
+<style type="text/css">
+
+
+
+div.NavButtonBar{
+	background-color: #000000;
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	clear: both;
+	font-size: 100%;
+}
+
+.NavButton {
+	border-style: solid;
+	
+	border-left-color: #7f7f7f;
+	border-top-color: #7f7f7f;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	background-color: #000000;
+	color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonUp {
+	border-style: solid;
+
+	border-left-color: #7f7f7f;
+	border-top-color: #7f7f7f;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	color: #000000;
+	background-color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonDown {
+	border-style: solid;
+
+	border-left-color: #000000;
+	border-top-color: #000000;
+	border-right-color: #7f7f7f;
+	border-bottom-color: #7f7f7f;
+	color: #000000;
+	background-color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+<BODY TEXT="#000000" BGCOLOR=#99c9e6>
+
+<!-- BeginNavBarHeaderCodeInsertedByMasher -->
+<style type="text/css">
+
+
+
+div.NavButtonBar{
+	background-color: #000000;
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	clear: both;
+	font-size: 100%;
+}
+
+.NavButton {
+	border-style: solid;
+	
+	border-left-color: #7f7f7f;
+	border-top-color: #7f7f7f;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	background-color: #000000;
+	color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonUp {
+	border-style: solid;
+
+	border-left-color: #7f7f7f;
+	border-top-color: #7f7f7f;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	color: #000000;
+	background-color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonDown {
+	border-style: solid;
+
+	border-left-color: #000000;
+	border-top-color: #000000;
+	border-right-color: #7f7f7f;
+	border-bottom-color: #7f7f7f;
+	color: #000000;
+	background-color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+
+
+</style>
+
+<!-- BeginNavBarHeaderCodeInsertedByMasher -->
+<style type="text/css">
+
+
+
+div.NavButtonBar{
+	background-color: #000000;
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	clear: both;
+	font-size: 100%;
+}
+
+.NavButton {
+	border-style: solid;
+	
+	border-left-color: #7f7f7f;
+	border-top-color: #7f7f7f;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	background-color: #000000;
+	color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonUp {
+	border-style: solid;
+
+	border-left-color: #7f7f7f;
+	border-top-color: #7f7f7f;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	color: #000000;
+	background-color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+.NavButtonDown {
+	border-style: solid;
+
+	border-left-color: #000000;
+	border-top-color: #000000;
+	border-right-color: #7f7f7f;
+	border-bottom-color: #7f7f7f;
+	color: #000000;
+	background-color: #ffffff;
+
+	border-width: 2px;
+	cursor: pointer;	
+}
+
+
+
+</style>
+
+<script type="text/javascript">
+//<![CDATA[
+<!--
+
+
+function NavBtnOver(Btn){
+	if (Btn.className != 'NavButtonDown'){Btn.className = 'NavButtonUp';}
+}
+
+function NavBtnOut(Btn){
+	Btn.className = 'NavButton';
+}
+
+function NavBtnDown(Btn){
+	Btn.className = 'NavButtonDown';
+}
+//
+
+//-->
+//]]>
+</script>
+<!-- EndNavBarHeaderCodeInsertedByMasher -->
+</head>
+
+<!-- Mirrored from www2.filg.uj.edu.pl/~romansos/hotpot/101viaggi/risultati.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Jul 2024 05:57:16 GMT -->
+<body>
+<!-- BeginNavBarInsertedByMasher -->
+
+<!-- BeginRepeatCode -->
+<div class="NavButtonBar" id="TopNavBar">
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='inizio.html'; return false;"> Inizio </button>
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='testIparte/test.html'; return false;"> Test </button>
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='risultati.html'; return false;">Risultati  </button>
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='dizionario/dizionario.html'; return false;"> Dizionario </button>
+
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='aiuto/aiuto.html'; return false;"> Aiuto </button>
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="self.close(); return false;">Esci</button>
+
+
+
+
+</div>
+
+<!-- EndRepeatCode -->
+
+<!-- EndNavBarInsertedByMasher -->
+
+
+<div style=text-align: center>
+<div class="Titles">
+	<h2 class="ExerciseTitle">Ultimi risultati ottenuti</h2>
+</div>
+</div>
+
+
+<script>
+
+function getCookie(name) {
+  var dc = document.cookie;
+  var prefix = name + "=";
+  var begin = dc.indexOf("; " + prefix);
+  if (begin == -1) {
+    begin = dc.indexOf(prefix);
+    if (begin != 0) return null;
+  } else
+    begin += 2;
+  var end = document.cookie.indexOf(";", begin);
+  if (end == -1)
+    end = dc.length;
+  return unescape(dc.substring(begin + prefix.length, end));
+}
+
+
+/*
+   name - name of the cookie
+   [path] - path of the cookie (must be same as path used to create cookie)
+   [domain] - domain of the cookie (must be same as domain used to
+     create cookie)
+   path and domain default if assigned null or omitted if no explicit
+     argument proceeds
+*/
+
+// date - any instance of the Date object
+// * hand all instances of the Date object to this function for "repairs"
+
+function fixDate(date) {
+  var base = new Date(0);
+  var skew = base.getTime();
+  if (skew > 0)
+    date.setTime(date.getTime() - skew);
+}
+
+var now = new Date();
+fixDate(now);
+now.setTime(now.getTime() + 365 * 24 * 60 * 60 * 1000);
+
+var counters=new Array()
+var titles=new Array()
+var step =new Array()
+var login = getCookie("login");
+
+document.write("<BR><center><TABLE BGCOLOR='#85fab4' align='center' width='40%'>");
+
+if (login != null) 
+document.write("<TR><TD>Utente attuale:<br><B>" + login + "</B></TD></TR><TR><TD>\n \n</TD></TR><tr><td></td></tr>");
+
+for (var i = 1; i < 99; i++) 
+{
+counters[i]  = getCookie("counter" + i); 
+titles[i]  = getCookie("title" + i); 
+step[i]  = getCookie("step" + i); 
+
+if (titles[i] != null  && counters[i] != null) 
+document.write("<TR><TD>Esercizio: <B> " + titles[i]+ " </B></TD></TR>");
+
+if (step[i]!=null)
+document.write("<TR><TD>Numero delle domande nel quiz:  <B> " + step[i] + "</B> </TD></TR>");
+
+if (titles[i] != null  && counters[i] != null) 
+document.write("<TR><TD>Risultato:  <B> " + counters[i] + "</B> % </TD></TR>");
+
+
+document.write("<TR><TD>\n \n</TD></TR> ");
+}
+
+
+document.write("</TABLE></center>");
+
+</script>
+
+
+</TABLE>
+
+<!-- Mirrored from www2.filg.uj.edu.pl/~romansos/hotpot/101viaggi/risultati.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Jul 2024 05:57:16 GMT -->
+</HTML>
+</BODY>
